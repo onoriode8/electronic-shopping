@@ -1,0 +1,42 @@
+.sideDrawer {
+    background-color: #fff;
+    box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    width: 88%;
+    height: 100vh;
+    z-index: 110;
+    top: 0;
+    transition: all 0.3s;
+}
+
+@media(min-width: 542px) {
+    .sideDrawer {
+        display: none;
+    }
+}
+
+.close {
+    transform: translateX(-100vh);
+}
+
+.open {
+    transform: translateX(0);
+}
+
+li {
+    margin: 15px 0px;
+}
+
+.list {
+    margin: 0px;
+    padding: 0px;
+    color: brown;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.list:hover {
+    color:#fff;
+    background: green;
+    padding: 5px 10px;
+}

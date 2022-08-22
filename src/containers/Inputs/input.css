@@ -1,0 +1,23 @@
+.macbook {
+    border: 1px solid grey; 
+    background: #fff;
+    padding: 20px 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 10px;
+    box-shadow: 1px 2px 7px 4px #1134;
+}
+
+.macbookImg {
+    width: 40%;
+}
+
+@media(max-width: 541px) {
+    .macbook {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .macbookImg {
+        width: 90%;
+    }
+}

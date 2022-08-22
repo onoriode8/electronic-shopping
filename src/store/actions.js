@@ -1,0 +1,4 @@
+
+export const OPEN_SIDEDRAWER = "OPEN_SIDEDRAWER";
+
+export const CLOSE_SIDEDRAWER = "CLOSE_SIDEDRAWER";

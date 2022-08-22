@@ -1,0 +1,20 @@
+.container {
+    margin-left: 30%;
+    margin-right: 30%; 
+    margin-top: 10px;
+}
+
+.contain {
+    border: 1px solid black; 
+    padding: 20px 16px;
+    box-shadow: 0px 2px 3px 2px #1134; 
+    font-family: Roman;
+    color: black;
+}
+
+@media(max-width: 540px) {
+    .container {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}

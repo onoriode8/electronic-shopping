@@ -1,0 +1,34 @@
+
+.image {
+    width: 100%;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.order {
+    background: orange;
+    color: #fff;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.order:hover {
+    background: green;
+    padding: 0px 10px;
+}
+
+.chart {
+    background: orange;
+    color: #fff;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.chart:hover {
+    background: green;
+    padding: 0px 10px;
+}
